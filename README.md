@@ -2,9 +2,10 @@
 
 
 Caffe/Python Implementation of the paper <b>Implementation of the paper <b>Learning Deep Features for One-Class Classification</b>, http://openaccess.thecvf.com/content_CVPR_2019/html/Perera_Deep_Transfer_Learning_for_Multiple_Class_Novelty_Detection_CVPR_2019_paper.html.
-</b>, http://openaccess.thecvf.com/content_CVPR_2019/html/Perera_Deep_Transfer_Learning_for_Multiple_Class_Novelty_Detection_CVPR_2019_paper.html.
+</b>
 
 In a practical novelty detection application, often there exists external dataset that can be used to transfer knowedge from. This work studies the problem of novelty detection in this context. We use Places365 as the external dataset.
+
 Author : Pramuditha Perera (pperera3@jhu.edu)
 
 If you found this code useful please cite our paper:
@@ -32,17 +33,15 @@ Pre-processing
 7. Move APLoss.py to caffe/python folder.   
 
 
-Training/ Testing
------------------
+Running the Code
+----------------
 
-
-Abnormal image detection
-------------------------
 If dataset is stored in /home/user/data/caltech folder, run the following command:
 python runOpenMulti.py --dataset /home/user/data/caltech --type deepNovelty
 
 Baseline finetuning model can be run using:
 python runOpenMulti.py --dataset /home/user/data/caltech --type mclass
+
 
 Arguments
 ----------
