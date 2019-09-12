@@ -1,14 +1,12 @@
 # TransferLearningNovelty
+Author : Pramuditha Perera (pperera3@jhu.edu)
 
-
-Caffe/Python Implementation of the paper Implementation of the paper <b>Learning Deep Features for One-Class Classification</b>, http://openaccess.thecvf.com/content_CVPR_2019/html/Perera_Deep_Transfer_Learning_for_Multiple_Class_Novelty_Detection_CVPR_2019_paper.html.
-</b>
+Caffe/Python Implementation of the paper Implementation of the paper <b>Learning Deep Features for One-Class Classification</b>,http://openaccess.thecvf.com/content_CVPR_2019/html/Perera_Deep_Transfer_Learning_for_Multiple_Class_Novelty_Detection_CVPR_2019_paper.html.</b>
 
 In a practical novelty detection application, often there exists external dataset that can be used to transfer knowedge from. This work studies the problem of novelty detection in this context. We use Places365 as the external dataset.
 
-Author : Pramuditha Perera (pperera3@jhu.edu)
-
 If you found this code useful please cite our paper:
+
 <pre><code>
 @InProceedings{Perera_2019_CVPR,
 author = {Perera, Pramuditha and Patel, Vishal M.},
