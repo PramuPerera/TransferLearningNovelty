@@ -17,15 +17,10 @@ def arguments():
     parser.add_argument("--type", default="mclass", help="Type of CNN : deepNovelty / mclass")
     parser.add_argument("--nclasses", default=256,
                         help="number of classes in dataset")
-    parser.add_argument("--output", default='output')
     parser.add_argument("--dataset", default="data/caltech/",
                         help="Specify the path to the training dataset")
     parser.add_argument("--cafferoot", default="/home/labuser/caffe/",
                         help="Specify the path to the caffe instalation")
-    parser.add_argument("--visualize", default=True,
-                        help="Save ROC curves")
-    parser.add_argument("--st", 
-                        help="String")	
     return(parser)
 
 
