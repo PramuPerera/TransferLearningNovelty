@@ -1,0 +1,16 @@
+net: "/home/labuser/caffe/examples/DeepNovelty/alex/alexCalM.prototxt" #trainOriginal.prototxt" #trainMIXWITHCAL trainMixPloss trainMixPlossSingle
+test_iter: 200
+test_interval: 500
+base_lr: 0.001 #0.001
+lr_policy: "step"
+gamma: 0.1
+stepsize: 5000
+display: 500
+max_iter: 60000
+momentum: 0.9
+weight_decay: 0.0005
+snapshot: 20000
+snapshot_prefix: "/home/labuser/caffe/examples/DeepNovelty/models/FTAlexCalM"
+solver_mode: GPU
+
+
